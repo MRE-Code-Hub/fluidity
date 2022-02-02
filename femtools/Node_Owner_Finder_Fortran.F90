@@ -328,7 +328,6 @@ contains
         ! on all processes.  This matches the find_serial(0) behaviour.
       end do
 #endif
-      ewrite(2, *) "Here_12"
       deallocate(closest_misses)
 
     end subroutine find_parallel
