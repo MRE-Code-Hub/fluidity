@@ -649,7 +649,6 @@ contains
          lvx, lvy, lvz, stat)
 
     if (stat/=0) then
-      ! FIX ME - Does not print
       ewrite(-1, *) "Python error, Python string was:"
       ewrite(-1 , *) trim(func)
       FLExit("Dying")
@@ -775,7 +774,6 @@ contains
            size(attributes,2), lvx, lvy, lvz, time, dt, attributes, stat)
     end if
     if (stat/=0) then
-      ! FIX ME - Does not print
       ewrite(-1, *) "Python error, Python string was:"
       ewrite(-1 , *) trim(func)
       FLExit("Dying")
@@ -886,7 +884,6 @@ contains
          lvx, lvy, lvz, time, dt, field_counts, field_names, field_vals, old_field_counts, old_field_names, &
          old_field_vals, old_attr_counts, old_attr_names, old_attr_dims, old_attributes, is_array, attributes, stat)
     if (stat/=0) then
-      ! FIX ME - Does not print
       ewrite(-1, *) "Python error, Python string was:"
       ewrite(-1 , *) trim(func)
       FLExit("Dying")
@@ -946,7 +943,6 @@ contains
             size(attributes,2), lvx, lvy, lvz, time, dt, attributes, stat)
     end if
     if (stat/=0) then
-      ! FIX ME - Does not print
       ewrite(-1, *) "Python error, Python string was:"
       ewrite(-1 , *) trim(func)
       FLExit("Dying")
@@ -1057,7 +1053,6 @@ contains
          lvx, lvy, lvz, time, dt, field_counts, field_names, field_vals, old_field_counts, old_field_names, &
          old_field_vals, old_attr_counts, old_attr_names, old_attr_dims, old_attributes, is_array, attributes, stat)
     if (stat/=0) then
-      ! FIX ME - Does not print
       ewrite(-1, *) "Python error, Python string was:"
       ewrite(-1 , *) trim(func)
       FLExit("Dying")
@@ -1121,7 +1116,6 @@ contains
             nparts, lvx, lvy, lvz, time, dt, tensor_res, stat)
     end if
     if (stat/=0) then
-      ! FIX ME - Does not print
       ewrite(-1, *) "Python error, Python string was:"
       ewrite(-1 , *) trim(func)
       FLExit("Dying")
@@ -1238,7 +1232,6 @@ contains
          lvx, lvy, lvz, time, dt, field_counts, field_names, field_vals, old_field_counts, old_field_names, &
          old_field_vals, old_attr_counts, old_attr_names, old_attr_dims, old_attributes, is_array, tensor_res, stat)
     if (stat/=0) then
-      ! FIX ME - Does not print
        ewrite(-1, *) "Python error, Python string was:"
        ewrite(-1 , *) trim(func)
        FLExit("Dying")
